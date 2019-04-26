@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Astha Admin</string>
+    <string name="customer">Customer</string>
+    <string name="manager">Manager</string>
+    <string name="transaction">Transaction</string>
+    <string name="products">Products</string>
+    <string name="edit_manager">Edit Manager</string>
+    <string name="edit_user">Edit User</string>
+    <string name="check_transaction">Check Transaction</string>
+    <string name="check_products">Check Products</string>
 </resources>
