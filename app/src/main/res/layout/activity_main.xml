@@ -56,6 +56,7 @@
                         android:layout_gravity="center"
                         android:orientation="vertical">
                         <TextView
+                            android:id="@+id/customerCount"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
@@ -83,6 +84,7 @@
                         android:layout_gravity="center"
                         android:orientation="vertical">
                         <TextView
+                            android:id="@+id/ManagerCount"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
@@ -124,6 +126,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
+                            android:id="@+id/transactionCount"
                             android:text="0"
                             android:textSize="28dp" />
 
@@ -156,6 +159,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:text="0"
+                            android:id="@+id/productsCount"
                             android:textSize="28dp" />
 
                         <TextView
@@ -178,6 +182,7 @@
 
                 <android.support.v7.widget.CardView
                     android:layout_width="0dp"
+                    android:id="@+id/managerID"
                     android:layout_height="100dp"
                     android:layout_gravity="center"
                     android:layout_margin="2dp"
@@ -202,6 +207,7 @@
 
                 <android.support.v7.widget.CardView
                     android:layout_width="0dp"
+                    android:id="@+id/userList"
                     android:layout_height="100dp"
                     android:layout_gravity="center"
                     android:layout_margin="2dp"
@@ -255,6 +261,7 @@
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView
                     android:layout_width="0dp"
+                    android:id="@+id/productlist"
                     android:layout_height="100dp"
                     android:layout_gravity="center"
                     android:layout_margin="2dp"
